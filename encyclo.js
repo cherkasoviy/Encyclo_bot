@@ -11,6 +11,6 @@ bot.on('text', function(msg) {
   	var end = data.indexOf("\n", start);
     bot.sendMessage(msg.from.id, data.slice(start, end));
  }
- else bot.sendMessage(msg.from.id, 'Не найдено\nдля более подробной информации:\nhttp://www.cochranelibrary.com/\nhttps://www.ncbi.nlm.nih.gov/pubmed/\nhttps://www.accessdata.fda.gov/scripts/cder/daf/'); 
+ else bot.sendMessage(msg.from.id, 'То что Вы ищете среди заведомых фуфломицинов не числится(при условии корректного написания) и скорее всего является нормальным лекарством, подробнее разобраться можно по ссылкам:\nhttp://www.cochranelibrary.com/\nhttps://www.ncbi.nlm.nih.gov/pubmed/\nhttps://www.accessdata.fda.gov/scripts/cder/daf/'); 
 });
 });
